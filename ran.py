@@ -5,7 +5,7 @@ from typing import Any
 from aiogram import Bot, Dispatcher, types
 from aiogram.types import Message
 
-TOKEN = os.environ['6138107355:AAGuP7Rtf36n8NQGNwPehnn5ClTGBtZeEeQ']
+TOKEN = os.environ('6138107355:AAGuP7Rtf36n8NQGNwPehnn5ClTGBtZeEeQ')
 dp = Dispatcher()
 
 characters = list(string.ascii_letters + string.digits + '!@#$%^&*()')
