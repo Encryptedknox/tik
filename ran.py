@@ -27,6 +27,6 @@ def generate_password(message):
 
     # Send the password to the user
     bot.send_message(message.chat.id, f"Generated password:{password}")
-    bot.send_message(message.chat.id, {password})
+    bot.send_message(message.chat.id, f" {password}")
 # Run the bot
 bot.polling()
