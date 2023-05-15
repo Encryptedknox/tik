@@ -4,7 +4,6 @@ import random
 from typing import Any
 from aiogram import Bot, Dispatcher, types
 from aiogram.types import Message
-from keep_alive import keep_alive
 
 TOKEN = os.environ['6138107355:AAFmM8xXb8uabBeacHu_doRpJSbg-ptYJDc']
 dp = Dispatcher()
