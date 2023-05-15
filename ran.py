@@ -12,7 +12,7 @@ def send_welcome(message):
     bot.reply_to(message, f"Hello, {message.chat.username}")
 
 # Define another message handler that handles /generate_password command
-@bot.message_handler(commands=['generate_password'])
+@bot.message_handler(commands=['gen'])
 def generate_password(message):
     # Generate a random password
     characters = string.ascii_letters + string.punctuation + string.digits
