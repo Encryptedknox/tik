@@ -9,11 +9,10 @@ bot = telebot.TeleBot("6138107355:AAGuP7Rtf36n8NQGNwPehnn5ClTGBtZeEeQ")
 # Define a message handler that handles incoming /start command
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
-    bot.reply_to(message, f"Hello, {message.chat.username}Welcome to our random password generator telegram bot! With our bot, you can easily generate strong and secure passwords for all your online accounts.
+    bot.reply_to(message, f"Hello, {message.chat.username}Welcome to our random password generator telegram bot! With our bot, you can easily generate strong and secure passwords for all your online accounts. ")
+                 
 
-dev :@aceknox
 
-updates :@knoxsupport")
 
 # Define another message handler that handles /generate_password command
 @bot.message_handler(commands=['gen'])
