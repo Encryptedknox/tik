@@ -1,5 +1,6 @@
 import telebot
 import string
+import random
 from random import choice
 
 # Create an instance of the TeleBot class
