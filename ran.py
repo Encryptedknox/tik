@@ -5,7 +5,7 @@ import telegram
 from telegram.ext import Updater, CommandHandler
 
 # Define the bot token and create an instance of the bot
-TOKEN = '6138107355:AAGuP7Rtf36n8NQGNwPehnn5ClTGBtZeEeQ'
+TOKEN = "6138107355:AAGuP7Rtf36n8NQGNwPehnn5ClTGBtZeEeQ"
 bot = telegram.Bot(token=TOKEN)
 
 # Define the command for generating a random password
