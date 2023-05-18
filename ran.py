@@ -29,4 +29,13 @@ def generate_password(message):
     bot.send_message(message.chat.id, f"Your password is ready")
     bot.send_message(message.chat.id, f" {password}")
 # Run the bot
+@bot.message_handler(commands=['users'])
+def get_users(message):
+    # Get the number of users
+    users = bot.get_users_count()
+
+    # Send the number of users to the user
+    bot.send_message(message.chat.id, f"There are {users} users in this bot.")
+
+
 bot.polling()
